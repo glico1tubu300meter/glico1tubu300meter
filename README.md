@@ -39,6 +39,11 @@ QLoRA(4bit量子化 + LoRA)によるローカルLLMファインチューニン�
 Vision-Language Model(Qwen2.5-VL-7B-Instruct、4bit量子化)を最小構成で動かすツールキット。画像キャプション生成・自由形式の質問応答(VQA)・物体検出(バウンディングボックス描画)に対応しています。
 `Qwen2.5-VL` `Transformers` `CUDA` `Python`
 
+**🎥 [comfyui-i2v-tools](https://github.com/glico1tubu300meter/comfyui-i2v-tools)**
+
+ComfyUI + LTX-Video / Stable Video Diffusion(SVD-XT)による画像条件付き動画生成の補助スクリプト集。被写体を保護したままのマスクimg2img、複数画像をフレーム位置に紐づけて誘導する長尺のマルチキーフレーム生成に対応しています。
+`ComfyUI` `LTX-Video` `Stable Video Diffusion` `Python`
+
 **🔍 [rag-basic-toolkit](https://github.com/glico1tubu300meter/rag-basic-toolkit)**
 
 RAG(検索拡張生成)の最小構成実装ツールキット。JSONLコーパスから埋め込みベクトルを生成しFAISSでインデックス化、質問に対して関連文書を検索してLLMが回答を生成します。コーパスに無い情報は無理に答えない設計です。
