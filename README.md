@@ -29,6 +29,11 @@
 Flow Matching / Rectified Flowの実装・実験集。2Dトイデータ→MNIST→CIFAR-10と段階的に発展させ、Classifier-Free Guidance・U-Net/DiT・VAE潜在空間・Reflowなどを実験しています。
 `Flow Matching` `PyTorch` `DiT` `VAE`
 
+**💎 [diamond-flow-matching-patch](https://github.com/glico1tubu300meter/diamond-flow-matching-patch)**
+
+拡散モデルで世界モデルを学習するRLエージェント **DIAMOND**(NeurIPS 2024)の世界モデル・方策・超解像アップサンプラーを、それぞれフローマッチングに置き換える実験パッチ。離散行動の方策をAdvantage-Weighted Regressionで学習する構成にも挑戦しています。
+`Flow Matching` `World Model` `Reinforcement Learning` `PyTorch`
+
 **🤖 [vision_language_model](https://github.com/glico1tubu300meter/vision_language_model)**
 
 物理シミュレータ **Genesis** とローカルVLM(Ollama/LLaVA)を組み合わせた、マルチエージェント方式のロボット制御シミュレーション。視覚情報をもとにロボットが赤いキューブのピック&リフト動作を自律実行します。
