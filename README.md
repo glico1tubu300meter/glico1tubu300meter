@@ -19,11 +19,6 @@
 
 ### 🚀 Projects
 
-**📈 [ts-forecast-toolkit](https://github.com/glico1tubu300meter/ts-forecast-toolkit)**
-
-金融時系列(為替・株価指数・暗号資産)の予測手法比較ツールキット。DLinear・TSMixer・PatchTST・TimeMixer(簡易再現)・Chronos(ゼロショット基盤モデル)をNaive/ARIMAと横断比較し、ニュースセンチメント併用も検証しています。
-`Time Series Forecasting` `PyTorch` `DLinear` `PatchTST` `Chronos`
-
 **🌊 [flow-matching-sample](https://github.com/glico1tubu300meter/flow-matching-sample)**
 
 Flow Matching / Rectified Flowの実装・実験集。2Dトイデータ→MNIST→CIFAR-10と段階的に発展させ、Classifier-Free Guidance・U-Net/DiT・VAE潜在空間・Reflowなどを実験しています。
@@ -33,6 +28,11 @@ Flow Matching / Rectified Flowの実装・実験集。2Dトイデータ→MNIST�
 
 拡散モデルで世界モデルを学習するRLエージェント **DIAMOND**(NeurIPS 2024)の世界モデル・方策・超解像アップサンプラーを、それぞれフローマッチングに置き換える実験パッチ。離散行動の方策をAdvantage-Weighted Regressionで学習する構成にも挑戦しています。
 `Flow Matching` `World Model` `Reinforcement Learning` `PyTorch`
+
+**📈 [ts-forecast-toolkit](https://github.com/glico1tubu300meter/ts-forecast-toolkit)**
+
+金融時系列(為替・株価指数・暗号資産)の予測手法比較ツールキット。DLinear・TSMixer・PatchTST・TimeMixer(簡易再現)・Chronos(ゼロショット基盤モデル)をNaive/ARIMAと横断比較し、ニュースセンチメント併用も検証しています。
+`Time Series Forecasting` `PyTorch` `DLinear` `PatchTST` `Chronos`
 
 **🤖 [vision_language_model](https://github.com/glico1tubu300meter/vision_language_model)**
 
